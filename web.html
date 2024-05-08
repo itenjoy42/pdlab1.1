@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDLab</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="site-header-text d-flex justify-content-between align-items-center">
+            <img src="application-bridge.png" alt="PDLab Logo" class="logo">
+            <h1>PDLab</h1>
+        </div>
+    </header>
+
+    <button class="button">검사결과 확인</button>
+
+</aside>
+
+
+<footer>
+    <p>&copy; 2024 PDLab. All rights reserved.</p>
+</footer>
+
+<script>
+    // 검사결과표시 버튼 요소 가져오기
+    const showResultsButton = document.querySelector('.button');
+
+    // 검사결과표시 버튼에 클릭 이벤트 추가
+    showResultsButton.addEventListener('click', (event) => {
+        event.preventDefault(); // 기본 동작 중지
+        // 페이지 리다이렉션
+        window.location.href = 'https://eman289.github.io/smart-login-system/index.html'; // 리다이렉션할 페이지의 URL로 변경하세요.
+    });
+</script>
+
+
+</body>
+</html>
